@@ -1,0 +1,39 @@
+
+.sidebar{
+    background:#232328;
+    width:100px;
+    height:100%;
+    display:block;
+    position:fixed;
+    left:-70px;
+    transition:left 0.3s linear;
+}
+.sidebar.visible{
+    top: 60px;
+    left:0px;
+    transition:left 0.3s linear;
+}
+.sidebar__item{
+    list-style:none;
+    text-align: right;
+    padding: 20px 0;
+}
+.sidebar__item:hover{
+    background: #4F4F53;
+}
+.sidebar__link{
+    color: #eeeeee;
+}
+.icons{
+    padding: 0 10px;
+}
+
+.sidebar-btn{
+    display:inline-block;
+    vertical-align: middle;
+    height:120px;
+    cursor:pointer;
+    position:absolute;
+    right:5px;
+}
+

@@ -1,0 +1,54 @@
+.footer{
+    height: 75px;
+    background: #232328;
+}
+
+.footer__left{
+    width: 50%;
+    float:left;
+    padding-top: 20px;
+}
+.footer__text{
+    font-size: 20px;
+    color: #fff
+}
+.footer__right{
+    width: 50%;
+    float: right;
+    padding-top: 20px;
+    text-align: right;
+}
+.social__link{
+    color: #fff;
+    font-size: 25px;
+    padding: 20px;
+}
+.social__link:hover{
+    color: #3AE2CE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+/*----- Responsive -----*/
+@media screen and (max-width: 761px) {
+    .menu__top {
+        position:relative;
+        display:inline-block;
+    }
+
+    .menu__top ul.active {
+        display:none;
+    }
+
+    .menu__list {
+        position:absolute;
+        top:100%;
+        right: 0px;
+        padding:10px 0px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#232328;
+        width: 100px;
+        text-align: center;
+        display: block;
+    }
+
+    .menu__top ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, 100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+
+    .menu__top li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+        padding: 20px 0;
+    }
+    .menu__top li:hover{
+        background:#4F4F53;
+    }
+
+    .toggle-nav {
+        padding:16px;
+        float:left;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#4F4F53;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#fff;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#fff;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+
+
+    .html{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 992px){
+    .html{
+        font-size: 15px;
+    }
+    .page__descr {
+        width: 40%;
+    }
+
+
+}
+@media screen and (max-width: 790px){
+
+    .html{
+        font-size: 14px;
+    }
+    .page__descr{
+       width: 50%;
+    }
+
+
+}
+@media screen and (max-width: 498px){
+    .html{
+        font-size: 12px;
+    }
+    .search{
+        display: none;
+    }
+    .page__descr{
+        width: 100%;
+    }
+    .footer__text{
+        display: none;
+    }
+    .social__link{
+        font-size: 15px;
+    }
+    .footer__right{
+        width: 70%;
+    }
+
+}
