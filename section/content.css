@@ -8,10 +8,9 @@
     float: right;
     height: 300px;
     width: 50%;
-    background: #222;
-    opacity: .3;
+    background: rgba(0,0,0,0.30);
     border-radius: 10px;
-    -webkit-box-shadow: -18px 6px 70px 6px rgba(0,0,0,0.46);
+    -webkit-box-shadow: -18px 6px 70px 6px rgba(0,0,0,0.30);
     -moz-box-shadow: -18px 6px 70px 6px rgba(0,0,0,0.46);
     box-shadow: -18px 6px 70px 6px rgba(0,0,0,0.46);
     text-align: center;
@@ -47,7 +46,7 @@
 }
 
 .button__descr:hover{
-    border: 5px solid #176894;
+    border: 5px solid rgba(117,140,213, 0.20);
 
 }
 .page__descr{
